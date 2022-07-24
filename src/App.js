@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Select from "./Selection";
 
 function App() {
+  const [state, setState] = useState(false) //true: card-face, false:card-back
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="relative m-0 h-screen w-screen flex justify-center items-center">
+      <div className="relative w-3/4 h-2/3 transition transform bg-gradient-to-r from-yellow-300 via-purple-500 to-blue-500 rounded-2xl border-4 border-pink-300">
+        <button className="absolute w-full h-full" onClick={Select}>
+        </button>
+        <div className=""></div>
+      </div>
     </div>
   );
 }
