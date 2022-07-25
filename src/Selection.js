@@ -1,10 +1,11 @@
 import content from "./content.json"
 
-let lenght = Object.keys(content.results).length
 
 function Select(){
+    let lenght = Object.keys(content.results).length
     const number = getRandomInteger(1, lenght)
     const question = getContentFromId(number)
+    console.log("🚀 ~ file: Selection.js ~ line 10 ~ Select ~ question", question)
     return question
 }
 
