@@ -1,6 +1,10 @@
 {
   "results": [
     {
+      "id": 0,
+      "content": "¿Tendrías algo con alguien de tu mismo sexo?"
+    },
+    {
       "id": 1,
       "content": "¿Cómo sería para ti un día perfecto?"
     },
@@ -63,10 +67,6 @@
     {
       "id": 16,
       "content": "¿Cuál sería tu trabajo soñado?"
-    },
-    {
-      "id": 17,
-      "content": "¿Tendrías algo con alguien te tu mismo sexo?"
     }
   ]
 }
