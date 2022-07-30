@@ -24,7 +24,7 @@ const CardFlip = () => {
   };
   return (
     <ThemeContext.Provider value = {{theme, toggleTheme}}>
-      <div id={theme} className="flex items-center justify-center min-h-screen min-w-[100vh]">
+      <div id={theme} className="flex items-center justify-center min-h-screen w-screen">
         <div className="absolute top-2 right-2">
           <label className="align-top text-lg"> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
           <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
