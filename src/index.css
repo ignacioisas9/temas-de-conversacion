@@ -10,3 +10,15 @@ body {
     background-color: white;
     -webkit-tap-highlight-color: transparent;
 }
+
+#light{
+    background-color: white;
+}
+
+#dark{
+    background-color: #1B0037;
+}
+
+#dark label{
+    color: white;
+}
