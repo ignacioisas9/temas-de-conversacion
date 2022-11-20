@@ -18,11 +18,11 @@ body {
 }
 
 #light{
-    background-color: white;
+    background-color: #f7e6ad;
 }
 
 #dark{
-    background-color: #1B0037;
+    background-color: #312e81;
 }
 
 #dark label{

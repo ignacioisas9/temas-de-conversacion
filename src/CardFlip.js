@@ -1,8 +1,10 @@
-import { createContext, useState } from "react";
-import Select from "./Selection";
-import ReactCardFlip from "react-card-flip";
+import { createContext, useState } from "react"
+import Select from "./Selection"
+import ReactCardFlip from "react-card-flip"
 import image from './assets/conversaciones.png'
 import ReactSwitch from 'react-switch'
+import sun from './assets/sun.png'
+import moon from './assets/moon.png'
 
 export const ThemeContext = createContext(null)
 
@@ -22,22 +24,23 @@ const CardFlip = () => {
     }
     return question;
   };
+
   return (
     <ThemeContext.Provider value = {{theme, toggleTheme}}>
       <div id={theme} className="flex items-center justify-center min-h-screen w-screen">
         <div className="absolute top-2 right-2">
-          <label className="align-top text-lg"> {theme === "light" ? "Light Mode" : "Dark Mode"} </label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"}/>
+          <div className="flex flex-row"> {theme === "light" ? <img src={sun} alt="" className="w-8 mr-2"/> : <img src={moon} alt="" className="w-8 mr-2"/>} 
+          <ReactSwitch onChange={toggleTheme} checked={theme === "light"} className=""/></div>
         </div>
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
           <button onClick={handleClick}>
-            <div className="font-serif text-white flex items-center justify-center w-60 h-96 px-10 text-2xl transition transform bg-gradient-to-br from-yellow-300 via-purple-500 to-blue-500 rounded-2xl border-4 border-pink-300">
+            <div className="font-serif text-white flex items-center justify-center w-60 h-96 px-10 text-2xl transition transform bg-gradient-to-br from-yellow-300 via-purple-500 to-indigo-500 rounded-2xl border-4 border-pink-300">
               <img alt="img" src={image}></img>
             </div>
           </button>
           <button onClick={handleClick}>
-            <div className="flex items-center justify-center w-60 h-96 rounded-2xl border-4 border-pink-300 bg-gradient-to-br from-pink-300 via-pink-200 to-pink-300">
-              <div className="font-serif text-3xl px-2 text-white">{question}</div>
+            <div className={`flex items-center justify-center w-60 h-96 rounded-2xl border-4 bg-gradient-to-br ${theme === "light" ? "from-amber-200 via-amber-100 to-amber-200 border-amber-400" : "from-indigo-600 via-indigo-500 to-indigo-600 border-indigo-400"}`}>
+              <div className={`font-serif text-3xl px-2 ${theme === "light" ? "text-gray-700" : "text-gray-200"}`}>{question}</div>
             </div>
           </button>
         </ReactCardFlip>
