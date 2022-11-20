@@ -67,6 +67,226 @@
     {
       "id": 16,
       "content": "¿Cuál sería tu trabajo soñado?"
+    },
+    {
+      "id": 17,
+      "content": "¿Cuál es tu libro favorito?"
+    },
+    {
+      "id": 18,
+      "content": "¿Sushi o asado?"
+    },
+    {
+      "id": 19,
+      "content": "¿Viajarías a la Luna?"
+    },
+    {
+      "id": 20,
+      "content": "¿Vacacionar 15 años seguidos en Moscú o en Mar del Plata?"
+    },
+    {
+      "id": 21,
+      "content": "¿En qué ciudad te gustaría vivir el resto de tu vida?"
+    },
+    {
+      "id": 22,
+      "content": "¿Que música suena en tu casa un sábado a la mañana?"
+    },
+    {
+      "id": 23,
+      "content": "¿Crees que estamos destinados desde que nacemos o que tenemos libertad para decidir?"
+    },
+    {
+      "id": 24,
+      "content": "Lugar favorito para ir a comer"
+    },
+    {
+      "id": 25,
+      "content": "Plan ideal para una cita"
+    },
+    {
+      "id": 26,
+      "content": "¿Existe la amistad entre el hombre y la mujer?"
+    },
+    {
+      "id": 27,
+      "content": "¿Cuál es la serie animada de tu infancia?"
+    },
+    {
+      "id": 28,
+      "content": "¿Crees en algún Dios o alguna fuerza divina?"
+    },
+    {
+      "id": 29,
+      "content": "¿Qué crees que ocurre cuando morimos?"
+    },
+    {
+      "id": 30,
+      "content": "¿Matar o morir?"
+    },
+    {
+      "id": 31,
+      "content": "¿Cuál es tu plan ideal para las vacaciones?"
+    },
+    {
+      "id": 32,
+      "content": "Canal de Youtube favorito"
+    },
+    {
+      "id": 33,
+      "content": "¿Tienes alguna fobia?"
+    },
+    {
+      "id": 34,
+      "content": "¿Te consideras una persona introvertida o extrovertida?"
+    },
+    {
+      "id": 35,
+      "content": "¿Te consideras una persona suspersticiosa?"
+    },
+    {
+      "id": 36,
+      "content": "¿Eres más mental o emocional?"
+    },
+    {
+      "id": 37,
+      "content": "¿Cuál es el trabajo de tus sueños?"
+    },
+    {
+      "id": 38,
+      "content": "¿Desayunas lo mismo cada día o vas alternando?"
+    },
+    {
+      "id": 39,
+      "content": "¿Cuál es tu estación del año favorita?"
+    },
+    {
+      "id": 40,
+      "content": "¿Team verano o team invierno?"
+    },
+    {
+      "id": 41,
+      "content": "¿Qué fue lo más rebelde que hiciste en tu adolescencia?"
+    },
+    {
+      "id": 42,
+      "content": "Si pudieses viajar en el tiempo, ¿a qué evento histórico asistirías?"
+    },
+    {
+      "id": 43,
+      "content": "Si pudieses viajar en el tiempo, ¿viajarías al futuro o al pasado?"
+    },
+    {
+      "id": 44,
+      "content": "¿Cuál ha sido la mejor época de tu vida?"
+    },
+    {
+      "id": 45,
+      "content": "El hombre ¿es bueno por naturaleza y la sociedad lo corrompe? ¿o es malo y la sociedad lo corrige?"
+    },
+    {
+      "id": 46,
+      "content": "¿Crees en el horóscopo?"
+    },
+    {
+      "id": 47,
+      "content": "¿Qué sentido tiene la vida para tí?"
+    },
+    {
+      "id": 48,
+      "content": "¿Cuál es la app que más utilizas en tu teléfono?"
+    },
+    {
+      "id": 49,
+      "content": "¿Qué es la cosa más rara que has comido?"
+    },
+    {
+      "id": 50,
+      "content": "¿Te gustaría ser famoso o pasar desapercibido siempre?"
+    },
+    {
+      "id": 51,
+      "content": "¿Te gustaría pasar a la historia de alguna forma? ¿Cuál?"
+    },
+    {
+      "id": 52,
+      "content": "Cuando eras pequeño, ¿qué querías ser de grande?"
+    },
+    {
+      "id": 53,
+      "content": "¿Prefieres ser experto en una sola cosa o ser simplemente bueno en todas?"
+    },
+    {
+      "id": 54,
+      "content": "¿Qué eslogan de anuncio cantaste más veces en tu vida?"
+    },
+    {
+      "id": 55,
+      "content": "Si fueses presidente, ¿cuál sería tu primera medida?"
+    },
+    {
+      "id": 56,
+      "content": "Postre favorito"
+    },
+    {
+      "id": 57,
+      "content": "¿Qué gran invención querrías que existiera antes de morir?"
+    },
+    {
+      "id": 58,
+      "content": "¿Irías a Marte sabiendo que no vas a volver?"
+    },
+    {
+      "id": 59,
+      "content": "¿Te tatuarías? ¿Qué cosa?"
+    },
+    {
+      "id": 60,
+      "content": "¿Fumaste marihuana alguna vez?"
+    },
+    {
+      "id": 61,
+      "content": "¿Te gustaría tener hijos algún día? ¿Cuántos?"
+    },
+    {
+      "id": 62,
+      "content": "¿Crees en los fantasmas o en lo sobrenatural?"
+    },
+    {
+      "id": 63,
+      "content": "¿Crees en la reencarnación?"
+    },
+    {
+      "id": 64,
+      "content": "¿Cuál es tu género favorito de películas?"
+    },
+    {
+      "id": 65,
+      "content": "¿Tienes alguna fantasía sexual?"
+    },
+    {
+      "id": 66,
+      "content": "De los participantes de la mesa, ¿quién será el siguiente en casarse?"
+    },
+    {
+      "id": 67,
+      "content": "De los participantes de la mesa, ¿quien será el primero en divorsiarse?"
+    },
+    {
+      "id": 68,
+      "content": "De los participantes de la mesa, ¿quién será el primero en tener hijos?"
+    },
+    {
+      "id": 69,
+      "content": "De los participantes de la mesa, ¿quién es más probable que se haga rico?"
+    },
+    {
+      "id": 70,
+      "content": "De los participantes de la mesa, ¿quién es más probable que atropelle a alguien?"
+    },
+    {
+      "id": 71,
+      "content": "De los participantes de la mesa, ¿quién es más probable que vuelva con su ex?"
     }
   ]
 }
