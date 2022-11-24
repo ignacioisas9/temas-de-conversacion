@@ -26,11 +26,11 @@ const CardFlip = () => {
   };
 
   return (
-    <ThemeContext.Provider value = {{theme, toggleTheme}}>
-      <div id={theme} className="flex items-center justify-center min-h-screen w-screen">
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <div id={theme} className="flex flex-col items-center justify-center min-h-screen w-screen">
         <div className="absolute top-2 right-2">
-          <div className="flex flex-row"> {theme === "light" ? <img src={sun} alt="" className="w-8 mr-2"/> : <img src={moon} alt="" className="w-8 mr-2"/>} 
-          <ReactSwitch onChange={toggleTheme} checked={theme === "light"} className=""/></div>
+          <div className="flex flex-row"> {theme === "light" ? <img src={sun} alt="" className="w-8 mr-2" /> : <img src={moon} alt="" className="w-8 mr-2" />}
+            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} className="" /></div>
         </div>
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
           <button onClick={handleClick}>
@@ -44,8 +44,16 @@ const CardFlip = () => {
             </div>
           </button>
         </ReactCardFlip>
+        <div className="flex justify-center">
+          <iframe 
+            className="w-80 h-64 rounded-xl shadow flex justify-center border-2 m-4" 
+            src="https://dolarhoy.com/i/cotizaciones/dolar-blue" 
+            frameborder="0">
+          </iframe>
+        </div>
       </div>
     </ThemeContext.Provider>
+
   );
 };
 
