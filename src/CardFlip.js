@@ -44,9 +44,9 @@ const CardFlip = () => {
             </div>
           </button>
         </ReactCardFlip>
-        <div className="flex justify-center">
+        <div className="fixed justify-center bottom-0">
           <iframe 
-            className="w-80 h-64 rounded-xl shadow flex justify-center border-2 m-4" 
+            className="w-60 h-60 rounded-xl shadow flex justify-center border-2" 
             src="https://dolarhoy.com/i/cotizaciones/dolar-blue" 
             frameborder="0">
           </iframe>
