@@ -27,7 +27,7 @@ const Dolar = (id) => {
           <span className={`m-3 px-2 ${id === "light" ? "text-black" : "text-white"}`}>{dolarBlue[1]}</span>
         </div>
       </div>
-      <div className="fixed justify-center right-0 top-60">
+      <div className="fixed justify-center top-0 left-0">
         <iframe
           title='dolarhoy'
           className="w-60 h-60 rounded-xl shadow flex justify-center border-2"
