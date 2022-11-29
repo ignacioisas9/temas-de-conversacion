@@ -5,6 +5,7 @@ import image from './assets/conversaciones.png'
 import ReactSwitch from 'react-switch'
 import sun from './assets/sun.png'
 import moon from './assets/moon.png'
+import Dolar from "./Dolar"
 
 export const ThemeContext = createContext(null)
 
@@ -44,13 +45,7 @@ const CardFlip = () => {
             </div>
           </button>
         </ReactCardFlip>
-        <div className="fixed justify-center bottom-0">
-          <iframe 
-            className="w-60 h-60 rounded-xl shadow flex justify-center border-2" 
-            src="https://dolarhoy.com/i/cotizaciones/dolar-blue" 
-            frameborder="0">
-          </iframe>
-        </div>
+        <Dolar id={theme} />
       </div>
     </ThemeContext.Provider>
 
