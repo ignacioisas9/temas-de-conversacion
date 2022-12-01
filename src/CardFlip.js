@@ -47,6 +47,7 @@ const CardFlip = () => {
             </div>
           </button>
         </ReactCardFlip>
+        <p className={`fixed bottom-0 font-serif text-xl ${theme === "light" ? "text-gray-700" : "text-gray-200"}`}>Powered by Ignacio Isas &#9884;</p>
       </div>
     </ThemeContext.Provider>
 
