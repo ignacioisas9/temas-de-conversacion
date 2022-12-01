@@ -5,7 +5,6 @@ import image from './assets/conversaciones.png'
 import ReactSwitch from 'react-switch'
 import sun from './assets/sun.png'
 import moon from './assets/moon.png'
-import Dolar from "./Dolar"
 
 export const ThemeContext = createContext(null)
 
@@ -29,10 +28,13 @@ const CardFlip = () => {
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <div id={theme} className="flex flex-col items-center justify-center min-h-screen w-screen">
+        {/* Toggle */}
         <div className="absolute top-2 right-2">
           <div className="flex flex-row"> {theme === "light" ? <img src={sun} alt="" className="w-8 mr-2" /> : <img src={moon} alt="" className="w-8 mr-2" />}
-            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} className="" /></div>
+            <ReactSwitch onChange={toggleTheme} checked={theme === "light"} className="" />
+          </div>
         </div>
+        {/* Card */}
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
           <button onClick={handleClick}>
             <div className="font-serif text-white flex items-center justify-center w-60 h-96 px-10 text-2xl transition transform bg-gradient-to-br from-yellow-300 via-purple-500 to-indigo-500 rounded-2xl border-4 border-pink-300">
@@ -45,7 +47,6 @@ const CardFlip = () => {
             </div>
           </button>
         </ReactCardFlip>
-        <Dolar id={theme} />
       </div>
     </ThemeContext.Provider>
 
