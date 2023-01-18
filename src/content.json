@@ -290,7 +290,7 @@
     },
     {
       "id": 72,
-      "content": "Si estuvieramos en la caja negra de tu vida, ¿cuál seria el suceso que te definió como sos hoy?"
+      "content": "Si vamos a la caja negra de tu vida, ¿Cuál es el momento que te convierte en lo que sos hoy?"
     },
     {
       "id": 73,
@@ -298,47 +298,191 @@
     },
     {
       "id": 74,
-      "content": "¿Cómo es para vos un buen día?"
-    },
-    {
-      "id": 75,
-      "content": "¿Cúal es tu mayor defecto?"
-    },
-    {
-      "id": 76,
       "content": "¿Has sido infiel alguna vez?"
     },
     {
-      "id": 77,
-      "content": "¿Que te da miedo?"
-    },
-    {
-      "id": 78,
+      "id": 75,
       "content": "¿Que cosa ilegal te gustaría hacer?"
     },
     {
-      "id": 79,
-      "content": "¿Cúal es tu posición favorita?"
+      "id": 76,
+      "content": "¿Cúal es tu posición sexual favorita?"
     },
     {
-      "id": 80,
+      "id": 77,
       "content": "¿Participarías de una orgia?"
     },
     {
+      "id": 78,
+      "content": "De los participantes de la mesa, ¿quién es más probable que abandone el grupo de amigos?"
+    },
+    {
+      "id": 79,
+      "content": "De los participantes de la mesa, ¿quién es más problable que se acueste con alguien del mismo sexo?"
+    },
+    {
+      "id": 80,
+      "content": "De los participantes de la mesa, ¿quién es más probable que sobreviva a un apocalipsis zombie?"
+    },
+    {
       "id": 81,
-      "content": "¿Quién es más probable que abandone el grupo de amigos?"
+      "content": "De los participantes de la mesa, ¿quién es más problable que se contagie de una ETS?"
     },
     {
       "id": 82,
-      "content": "¿Quién es más problable que  se acueste con alguien del mismo sexo?"
+      "content": "De los participantes de la mesa, ¿con quién te acostarías?"
     },
     {
       "id": 83,
-      "content": "¿Quién es mas probable que spbreviva a un apocalipsis zombie?"
+      "content": "¿Crees que has encontrado ya a tu media naranja?"
     },
     {
       "id": 84,
-      "content": "¿Quién es más problable que se contagie de una enfermedad sexual?"
+      "content": "¿Qué es lo mejor que has hecho por amor?"
+    },
+    {
+      "id": 85,
+      "content": "¿Crees que te pareces a tus padres?"
+    },
+    {
+      "id": 86,
+      "content": "¿Qué es lo que jamás podrías perdonarle a tu pareja?"
+    },
+    {
+      "id": 87,
+      "content": "¿Crees que el tamaño importa?"
+    },
+    {
+      "id": 88,
+      "content": "¿Cada cuánto te masturbas?"
+    },
+    {
+      "id": 89,
+      "content": "¿Qué color de lencería te gusta?"
+    },
+    {
+      "id": 90,
+      "content": "¿Alguna vez has tenido fantasías con alguien que no deberías?"
+    },
+    {
+      "id": 91,
+      "content": "¿Alguna vez te han pillado teniendo sexo?"
+    },
+    {
+      "id": 92,
+      "content": "¿Qué juguete te gustaría probar en la cama?"
+    },
+    {
+      "id": 93,
+      "content": "¿Alguna vez has usado ropa interior del sexo opuesto?"
+    },
+    {
+      "id": 94,
+      "content": "¿Has usado juguetes sexuales alguna vez?"
+    },
+    {
+      "id": 95,
+      "content": "¿Podrías estar en una relación abierta?"
+    },
+    {
+      "id": 96,
+      "content": "¿Crees que puedes tener sexo con un amigo/a y mantener la amistad?"
+    },
+    {
+      "id": 97,
+      "content": "¿Cuál es tu comida favorita?"
+    },
+    {
+      "id": 98,
+      "content": "¿Rubia, morocha o pelirroja?"
+    },
+    {
+      "id": 99,
+      "content": "¿Pelo corto o largo?"
+    },
+    {
+      "id": 100,
+      "content": "¿Culo o tetas?"
+    },
+    {
+      "id": 101,
+      "content": "¿Cómo te gustaría morir?"
+    },
+    {
+      "id": 102,
+      "content": "¿Cuál es el primer recuerdo de tu vida?"
+    },
+    {
+      "id": 103,
+      "content": "¿Qué preferís: cumplir tus sueños y metas profesionales y quizás ser feliz, o ser feliz seguro?"
+    },
+    {
+      "id": 104,
+      "content": "Bebida alcoholica favorita"
+    },
+    {
+      "id": 105,
+      "content": "Si pudieras saber tu futuro, ¿querrías conocerlo?"
+    },
+    {
+      "id": 106,
+      "content": "¿Te importa lo que la gente piensa de tí?"
+    },
+    {
+      "id": 107,
+      "content": "¿Crees que vivimos en una simulación?"
+    },
+    {
+      "id": 108,
+      "content": "¿Te gustaría vivir eternamente?"
+    },
+    {
+      "id": 109,
+      "content": "¿Para qué sirve la plata?"
+    },
+    {
+      "id": 110,
+      "content": "¿Te enamoras de personas con las que no puedes estar? ¿Por qué?"
+    },
+    {
+      "id": 111,
+      "content": "¿Con qué personaje ficticio te identificas más?"
+    },
+    {
+      "id": 112,
+      "content": "¿Crees que existen los extraterrestres?"
+    },
+    {
+      "id": 113,
+      "content": "¿Estás a gusto con tu cuerpo?"
+    },
+    {
+      "id": 114,
+      "content": "¿Te enamoras facilmente?"
+    },
+    {
+      "id": 115,
+      "content": "¿Besarías a la persona de tu izquierda?"
+    },
+    {
+      "id": 116,
+      "content": "¿Te gusta alguien en este momento? ¿Quién?"
+    },
+    {
+      "id": 117,
+      "content": "¿Alguna vez te has metido a la pileta desnudo?"
+    },
+    {
+      "id": 118,
+      "content": "¿Sexo matutino, vespertino o nocturno?"
+    },
+    {
+      "id": 119,
+      "content": "¿Deporte favorito?"
+    },
+    {
+      "id": 120,
+      "content": "¿Qué prefieres: no más sexo o comer la misma comida para siempre?"
     }
   ]
 }
