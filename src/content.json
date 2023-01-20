@@ -483,6 +483,26 @@
     {
       "id": 120,
       "content": "¿Qué prefieres: no más sexo o comer la misma comida para siempre?"
+    },
+    {
+      "id": 121,
+      "content": "¿Ser multimillonario o ser integramente feliz con lo que tienes?"
+    },
+    {
+      "id": 122,
+      "content": "¿Las personas cambian o muestran realmente lo que son?"
+    },
+    {
+      "id": 123,
+      "content": "¿Con quién harías un trío?"
+    },
+    {
+      "id": 124,
+      "content": "¿Harías un trío con alguien de tu mismo sexo?"
+    },
+    {
+      "id": 125,
+      "content": "¿Harías un intercambio de parejas?"
     }
   ]
 }
